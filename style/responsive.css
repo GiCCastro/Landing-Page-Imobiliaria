@@ -1,0 +1,198 @@
+@media (max-width: 1500px) {
+
+    header .navbar {
+        justify-content: space-around;
+        gap: 8px;
+    }
+
+    header  img {
+        margin: 0;
+    }
+
+    .navbar .menu ul {
+        gap: 60px;
+        margin: 0;
+    }
+
+    .navbar .menu a {
+        font-size: 32px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .navbar button {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1350px) {
+    header img,
+    footer img {
+        max-width: 100px;
+    }
+
+    .search-properties {
+        width: 80%;
+        height: 145px;
+    }
+
+}
+
+@media(max-width: 1100px) {
+
+    header img,
+    footer img {
+        max-width: 80px;
+    }
+
+    .section-banner__banner-text {
+        width: 80%;
+    }
+
+    .section-banner__banner-text p {
+        font-size: 48px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    .navbar .menu ul {
+        gap: 40px;
+        margin: 0;
+    }
+
+    .navbar .menu a {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 980px) {
+
+    .section-banner__banner-text p {
+        line-height: 60px;
+        font-size: 40px;
+    }
+
+    .search-properties form {
+        gap: 50px;
+    }
+
+    .section-services {
+        padding: 120px 16px 139px;
+    }
+
+}
+
+@media(max-width: 850px) {
+    footer .navbar a {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 790px) {
+    .search-properties form {
+        gap: 30px;
+    }
+
+    footer .navbar a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 763px) {
+    .section-banner__banner-text p {
+        line-height: 60px;
+        font-size: 32px;
+    }
+
+    .search-properties form {
+        gap: 40px;
+    }
+}
+
+@media(max-width: 714px){
+    .section-services {
+        padding: 100px 16px 139px;
+    }
+
+    .section-services__text-paragrafe{
+        font-size: 34px;
+    }
+}
+
+@media(max-width: 614px){
+    .section-banner__banner-text p {
+        line-height: 35px;
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    header img,
+    footer img {
+        max-width: 60px;
+    }
+
+
+    section.section-terrain {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 532px) {
+    .navbar button{
+        width: 150px;
+    }
+
+    .section-terrain__text-area-meter {
+        margin-top: 50px;
+        gap: 16px;
+    }
+
+    .section-terrain__text-terrain,
+    .section-terrain__text-price,
+    .section-terrain__text-area,
+    .section-terrain__text-meter {
+        font-size: 24px;      
+    }
+
+    .section-services__text-title {
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .section-banner__banner-text {
+        max-width: 90%;
+        width: 100%;    
+    }
+
+    .section-banner__banner-text p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .section-services__text-title {
+        font-size: 36px;
+    }
+
+    .section-services__text-paragrafe {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 223px){
+    footer {
+        padding: 16px 0;
+    }
+}
